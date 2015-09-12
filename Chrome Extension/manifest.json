@@ -1,0 +1,16 @@
+{
+    "name": "Purdue Cal",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "file://*",
+        "downloads"
+    ],
+    "browser_action": {
+        "default_title": "Export Schedule",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
