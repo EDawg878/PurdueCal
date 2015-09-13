@@ -1,7 +1,7 @@
 This project was developed during MHacks6 to import class schedules from Purdue's website into Google Calendar.
 
 Why Purdue Cal?
-- Get Notifications straight to your phone when class is about to start, via the Google Calendars App
+- Get notifications straight to your phone when class is about to start, via the Google Calendars App
 - Google Calendar Events will recur until the course is over
 - Easy access to helpful information about your class
   - Official course name, CRN number and course level
