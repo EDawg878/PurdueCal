@@ -1,11 +1,8 @@
 var table = $("table[summary^='Display course details']");
-var end = table.find("tr").length - 4;
 
 table.find("td").each(function() {
     var col = $(this);
-    if (row_index == end) {
-        return false;
-    } else if (col.html() == "&nbsp;") {
+    if (col.html() == "&nbsp;") {
         var row_index = col.parent().index();
         var col_index = col.index();
         var query_above = "tr:eq(" + (row_index - 1) + ") td:eq(" + col_index+ ")";
