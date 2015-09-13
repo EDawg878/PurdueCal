@@ -1,4 +1,5 @@
 This project was developed during MHacks6 to import class schedules from Purdue's website into Google Calendar.
+I developed this project because I was sick of pulling up a screenshot of my class schedule everyday just to get to my classes.
 
 Why Purdue Cal?
 - Get notifications straight to your phone when class is about to start, via the Google Calendars App
