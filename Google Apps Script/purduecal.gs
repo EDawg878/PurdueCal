@@ -94,7 +94,6 @@ function exportSchedule() {
       var start_time = parseTime(start_end_split[0]);
       var end_time = parseTime(start_end_split[1]);
       
-      var first_day = createDateTime(e["Start Date"], start_time);
       var cal_start_date_time = getClassesForWeek(createDateTime(e["Start Date"], start_time), e["Days"]);
       var cal_end_date_time = getClassesForWeek(createDateTime(e["Start Date"], end_time), e["Days"]);
                         
@@ -111,7 +110,6 @@ function exportSchedule() {
           .until(createDateTime(e["End Date"], end_time));
         var series = calendar.createEventSeries(course, start_date_time, end_date_time, recurrence);
       
-        //var series = calendar.createEvent(course, start_date_time, end_date_time);
         var description = title + "\n" +
           "\nInstructor: " + instructor +
           "\nCampus: " + campus +
