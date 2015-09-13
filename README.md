@@ -1,4 +1,13 @@
-This project was developed during MHacks6 to export class schedules from Purdue's website to Google Calendars.
+This project was developed during MHacks6 to import class schedules from Purdue's website into Google Calendar.
+
+Why Purdue Cal?
+- Get Notifications straight to your phone when class is about to start, via the Google Calendars App
+- Google Calendar Events will recur until the course is over
+- Easy access to helpful information about your class
+  - Official course name, CRN number and course level
+  - Directions to your class (campus, building and room number) via Google Maps
+  - Professor's name
+  - Number of credits earned
 
 Instructions:
 - Download the PurdueCal Chrome extension, once it is installed you should now see a green download button in your browser toolbar
