@@ -83,7 +83,7 @@ function exportSchedule() {
     var campus = e["Campus"];
     var credits = e["Credits"];
     var level = e["Level"];
-    var location = e["Location"];
+    var location = getLocation(e["Location"]);
     var instructor = e["Instructor"];
     var days = parseDays(e["Days"]);
     var combined_time = e["Time"];
@@ -122,6 +122,11 @@ function exportSchedule() {
     }
   }
   openDialog();
+}
+
+function getLocation(loc) {
+  var index = loc.lastIndexOf(" ");
+  return loc.substring(0, index) + "," + loc.substring(index);
 }
 
 function parseTime(time) {
